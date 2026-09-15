@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basics</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        .shops {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+        .shop-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .shop-item img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .footer {
+            text-align: right;
+            font-style: italic;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Online Shops & Stores</h1>
+
+    <div class="shops">
+        <div class="shop-item">
+            <img src="https://picsum.photos/id/21/200/200" alt="Shop 1">
+            <a href="https://www.amazon.com" target="_blank">Amazon</a>
+        </div>
+        <div class="shop-item">
+            <img src="https://picsum.photos/id/26/200/200" alt="Shop 2">
+            <a href="https://www.ebay.com" target="_blank">eBay</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        © todma 2026
+    </div>
+
+</body>
+</html>
