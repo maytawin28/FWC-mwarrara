@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- กำหนดภาษาเว็บไซต์เป็นอังกฤษ -->
+<head>
+  <meta charset="UTF-8"> <!-- รองรับตัวอักษรหลายภาษา -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- รองรับการแสดงผลบนมือถือ -->
+  <meta name="description" content="Meet Tida and Tod, third-year Digital Technology and Integrated Innovation students at KMITL."> <!-- คำอธิบายเว็บไซต์ -->
+  <title>Tida & Tod | Student Portfolios</title> <!-- ชื่อที่แสดงบนแท็บ -->
+  <link rel="stylesheet" href="style.css"> <!-- เชื่อม HTML กับไฟล์ CSS -->
+</head>
+<body class="landing"> <!-- กำหนด class สำหรับหน้าแรก -->
+  <a class="skip-link" href="#main">Skip to content</a> <!-- ลิงก์ข้ามไปยังเนื้อหาหลัก -->
+  <header class="landing-header container"> <!-- ส่วนหัวของหน้า -->
+    <span class="brand">T<span class="brand-dot">&</span>T<span class="brand-dot">.</span></span> <!-- โลโก้ T&T -->
+    <span class="eyebrow">KMITL / STUDENT PORTFOLIOS</span> <!-- ข้อความหัวข้อเล็ก -->
+  </header>
+  <main id="main" class="container"> <!-- เนื้อหาหลักของหน้า -->
+    <section class="intro" aria-labelledby="welcome"> <!-- ส่วนแนะนำเว็บไซต์ -->
+      <p class="eyebrow"><span class="status-dot"></span> TWO PEOPLE. TWO PERSPECTIVES.</p> <!-- ข้อความแนะนำและจุดสถานะ -->
+      <h1 id="welcome">A little about us<span class="brand-dot">.</span></h1> <!-- หัวข้อหลัก -->
+      <p>Meet Tida &amp; Tod — third-year students exploring<br class="desktop-break"> digital technology, design, and the things we love.</p> <!-- คำอธิบาย -->
+    </section>
+    <div class="portfolio-grid"> <!-- กล่องจัดการ์ดเป็น Grid -->
+      <a class="person-card tida-card" href="tida.html" aria-label="View Tida’s portfolio"> <!-- การ์ดของ Tida และลิงก์ไปหน้า Tida -->
+        <div class="card-photo"><img src="images/tida.jpg" alt="Tida" width="960" height="540"><span class="photo-label">01 / TIDA</span></div> <!-- รูปและป้ายชื่อ -->
+        <div class="card-content"> <!-- เนื้อหาการ์ด -->
+          <p class="eyebrow">DESIGN · PSYCHOLOGY</p> <!-- ความสนใจของ Tida -->
+          <h2>Tida<span class="brand-dot">.</span></h2> <!-- ชื่อ Tida -->
+          <p class="full-name">Phitchayatida Phitphisarn</p> <!-- ชื่อเต็ม -->
+          <div class="card-bottom"><span>View portfolio</span><span class="arrow" aria-hidden="true">↗</span></div> <!-- ปุ่มดู Portfolio -->
+        </div>
+      </a>
+      <a class="person-card tod-card" href="tod.html" aria-label="View Tod’s portfolio"> <!-- การ์ดของ Tod และลิงก์ไปหน้า Tod -->
+        <div class="card-photo"><img src="images/Tod.jpg" alt="Tod" width="1536" height="2048"><span class="photo-label">02 / TOD</span></div> <!-- รูปและป้ายชื่อ -->
+        <div class="card-content"> <!-- เนื้อหาการ์ด -->
+          <p class="eyebrow">GAME DEVELOPMENT · GAME STREAMING</p> <!-- ความสนใจของ Tod -->
+          <h2>Tod<span class="brand-dot">.</span></h2> <!-- ชื่อ Tod -->
+          <p class="full-name">Maytawin Warraraksaphong</p> <!-- ชื่อเต็ม -->
+          <div class="card-bottom"><span>View portfolio</span><span class="arrow" aria-hidden="true">↗</span></div> <!-- ปุ่มดู Portfolio -->
+        </div>
+      </a>
+    </div>
+  </main>
+  <footer class="container site-footer"><span>Tida &amp; Tod</span><span>Digital Technology and Integrated Innovation · KMITL</span></footer> <!-- ส่วนท้ายเว็บไซต์ -->
+</body>
+</html>
