@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; padding: 30px; background-color: #f4f4f9; display: flex; flex-direction: column; align-items: center; }
+#new_btn { padding: 10px 20px; font-size: 16px; cursor: pointer; margin-bottom: 20px; background-color: #28a745; color: white; border: none; border-radius: 4px; font-weight: bold; }
+#ft_list { width: 100%; max-width: 400px; }
+#ft_list div { background-color: #ffffff; padding: 12px 16px; margin-bottom: 8px; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; word-break: break-word; }
