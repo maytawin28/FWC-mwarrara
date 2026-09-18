@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f4f9;
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
     font-weight: bold;
+    margin-top: 0;
     margin-bottom: 25px;
     color: #000000;
 }
@@ -20,10 +21,11 @@ h2 {
 .card {
     background-color: #ffffff;
     width: 320px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
     overflow: hidden;
 }
 
+/* Invisible Table */
 .invisible-table {
     width: 100%;
     border-collapse: collapse;
@@ -32,8 +34,8 @@ h2 {
 
 .invisible-table td {
     border: none;
-    padding: 0;
     text-align: center;
+    vertical-align: middle;
 }
 
 .profile-img {
@@ -43,38 +45,46 @@ h2 {
     display: block;
 }
 
-.login-name {
+/* ระยะห่างแต่ละช่องเพื่อป้องกันฟอนต์ทับกัน */
+.cell-login {
     font-size: 26px;
-    font-weight: 700;
+    font-weight: bold;
     color: #000000;
     padding-top: 20px;
-    padding-bottom: 8px;
-    letter-spacing: -0.5px;
+    padding-bottom: 10px;
+    line-height: 1.2;
 }
 
-.description {
+.cell-desc {
     font-size: 15px;
-    color: #8e8e93;
-    font-weight: 400;
-    padding-bottom: 6px;
+    color: #777777;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    line-height: 1.4;
 }
 
-.location {
+.cell-loc {
     font-size: 14px;
-    color: #1c1c1e;
-    font-weight: 400;
-    padding-bottom: 16px;
+    color: #222222;
+    padding-top: 2px;
+    padding-bottom: 18px;
+    line-height: 1.4;
 }
 
-.social-icons {
+.cell-social {
+    padding-top: 5px;
     padding-bottom: 22px;
 }
 
-.social-icons img {
-    width: 20px;
-    height: 20px;
-    margin: 0 4px;
+.cell-social img {
+    width: 22px;
+    height: 22px;
+    margin: 0 6px;
     vertical-align: middle;
+}
+
+.cell-btn {
+    padding: 0;
 }
 
 .contact-btn {
@@ -82,14 +92,12 @@ h2 {
     background-color: #000000;
     color: #ffffff;
     border: none;
-    padding: 14px 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+    padding: 15px 0;
+    font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    display: block;
 }
 
 .contact-btn:hover {
-    background-color: #222222;
+    background-color: #333333;
 }
